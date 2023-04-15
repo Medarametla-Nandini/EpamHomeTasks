@@ -1,0 +1,47 @@
+header{
+    background-color: rgb(6, 0, 128);
+    width:100%;
+    padding:20px;
+    
+}
+header>div>h1,h3{
+    font-family: Roboto,sans-serif;
+    margin:auto;
+    width:50%;
+    background-color: white;
+    text-align:center;
+}
+header>div>h1{
+    border-top:1px solid red;  
+    border-left:1px solid red;  
+    border-right:1px solid red; 
+}
+header>div>h3{
+    border-bottom:1px solid red;  
+    border-left:1px solid red;  
+    border-right:1px solid red; 
+}
+nav>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.s1{
+    display: flex;
+    text-align: left;
+}
+.s11>img{
+    width:250px;
+    margin:10px;
+}
+section b{
+    font-size: 20px;
+}
+.s22{
+    margin:10px;
+}
+.s33,.s44,.s55{
+    background-color:red;
+    width:17%;
+}
+
